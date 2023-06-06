@@ -1,0 +1,159 @@
+footer {
+  overflow: hidden;
+}
+footer .footer_top {
+  position: relative;
+}
+footer .footer_top .imgBg {
+  transform: rotate(180deg);
+}
+footer .footer_top .imgBg_sm {
+  display: none;
+}
+footer .footer_top .imgLogo {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 10%;
+}
+footer .footer_bot {
+  padding: 40px 0;
+}
+footer .footer_bot .footer_title {
+  margin-bottom: 30px;
+}
+footer .footer_bot .footer_title .title_textt {
+  font-size: 30px;
+  font-weight: 700;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_info .ul_menu {
+  list-style: none;
+  padding-left: 0;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_info .ul_menu .li_item {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_info .ul_menu .li_item .li_link {
+  font-weight: normal;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social {
+  display: flex;
+  align-items: center;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_page {
+  width: 50%;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner {
+  width: 50%;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .img_card {
+  width: 100%;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .facebook {
+  background-color: #2477e3;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .twitter {
+  background-color: #729acf;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .istagram {
+  background-color: rgb(210, 119, 134);
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .youtube {
+  background-color: red;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon .vimeo {
+  background-color: #084fac;
+}
+footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon svg {
+  width: 15px;
+  height: 15px;
+  color: white;
+  fill: currentColor;
+}
+footer .footer_copy {
+  background-color: #231f20;
+  padding: 20px 0;
+}
+footer .footer_copy .copyContent {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_copy .copyContent .left {
+  display: flex;
+  font-size: 12px;
+}
+footer .footer_copy .copyContent .left .copyLeft_text1 {
+  color: white;
+  margin-bottom: 0;
+}
+footer .footer_copy .copyContent .left .copyLeft_text1 span.copyLeft_text2 {
+  color: gold;
+}
+footer .footer_copy .copyContent .left span {
+  padding: 0 5px;
+  color: gold;
+}
+footer .footer_copy .copyContent .right {
+  color: white;
+  display: flex;
+  font-size: 12px;
+}
+footer .footer_copy .copyContent .right .copyRight_text1 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+footer .footer_copy .copyContent .right span {
+  padding: 0 5px;
+}
+
+@media (max-width: 768px) {
+  footer .footer_top .imgBg {
+    display: none;
+  }
+  footer .footer_top .imgBg_sm {
+    display: block;
+    transform: rotate(180deg);
+  }
+  footer .footer_top .imgLogo {
+    width: 30%;
+    left: 35%;
+  }
+  footer .footer_bot .footer_title {
+    text-align: center;
+  }
+  footer .footer_bot .footer_content .contentWrapper {
+    padding: 0 50px;
+  }
+  footer .footer_bot .footer_content .contentWrapper .footer_info {
+    text-align: center;
+  }
+  footer .footer_bot .footer_content .contentWrapper .footer_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer_bot .footer_content .contentWrapper .footer_social .social_page {
+    width: auto;
+  }
+  footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner {
+    margin-top: 30px;
+    width: 100%;
+  }
+  footer .footer_bot .footer_content .contentWrapper .footer_social .social_partner .partnerIcon {
+    margin-top: 30px;
+  }
+}

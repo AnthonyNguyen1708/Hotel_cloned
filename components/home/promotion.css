@@ -1,0 +1,71 @@
+.promotion {
+  background-color: #f7f7f7;
+}
+.promotion .promotion_wrapper {
+  padding: 100px 0;
+}
+.promotion .promotion_wrapper .promotion_title {
+  margin-bottom: 50px;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper {
+  align-items: center;
+  background-color: white;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent {
+  text-align: center;
+  padding: 30px;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent .item_textMain {
+  color: #8b0021;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent .item_textMain:before {
+  content: "";
+  position: absolute;
+  width: 12%;
+  height: 3px;
+  background-color: #8b0021;
+  bottom: -15%;
+  left: 42%;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent .item_textSub {
+  font-size: 1rem;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemImg {
+  padding: 0;
+}
+.promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemImg .promotion_img {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .promotion .promotion_wrapper {
+    padding: 30px 0;
+  }
+  .promotion .promotion_wrapper .promotion_title {
+    margin-bottom: 20px;
+  }
+  .promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item {
+    padding: 20px;
+  }
+  .promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 2;
+  }
+  .promotion .promotion_wrapper .promotion_content .content_wrapper .promotion_item .item_wrapper .itemContent a {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,97 @@
+.about {
+  overflow: hidden;
+}
+.about .about_wrapper {
+  padding: 100px 0;
+  position: relative;
+}
+.about .about_wrapper .aboutLogo_top {
+  position: absolute;
+  top: 0;
+  left: -10%;
+}
+.about .about_wrapper .aboutLogo_top .logo_img {
+  opacity: 0.2;
+}
+.about .about_wrapper .aboutLogo_bot {
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+}
+.about .about_wrapper .aboutLogo_bot .logo_img {
+  opacity: 0.2;
+}
+.about .about_wrapper .about_content {
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+}
+.about .about_wrapper .about_content .about_img .img_wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.about .about_wrapper .about_content .about_img .img_wrapper .img_about {
+  height: 100%;
+  width: auto;
+}
+.about .about_wrapper .about_content .about_text {
+  padding-left: 30px;
+}
+.about .about_wrapper .about_content .about_text .text_wrapper .text_content {
+  margin-top: 50px;
+}
+.about .about_wrapper .about_content .about_text .text_wrapper .text_content .text_title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.about .about_wrapper .about_content .about_text .text_wrapper .text_content .text {
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  .about .about_wrapper .aboutLogo_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .about .about_wrapper .aboutLogo_bot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .about .about_wrapper .about_content .about_text {
+    padding-left: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .about .about_wrapper {
+    padding: 50px 0;
+  }
+  .about .about_wrapper .aboutLogo_top {
+    top: 50%;
+    width: 25%;
+  }
+  .about .about_wrapper .aboutLogo_top img {
+    width: 100%;
+  }
+  .about .about_wrapper .aboutLogo_bot {
+    width: 25%;
+  }
+  .about .about_wrapper .aboutLogo_bot img {
+    width: 100%;
+  }
+  .about .about_wrapper .about_content .about_img .img_wrapper {
+    aspect-ratio: 3/4;
+  }
+  .about .about_wrapper .about_content .about_text {
+    margin-top: 30px;
+  }
+  .about .about_wrapper .about_content .about_text .text_wrapper .text_content {
+    margin-top: 20px;
+  }
+}

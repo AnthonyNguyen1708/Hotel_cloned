@@ -1,0 +1,126 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+.banner .banner_wrapper .slide_content {
+  position: relative;
+}
+.banner .banner_wrapper .slide_content .slide_item img {
+  width: 100%;
+  height: 100vh;
+}
+.banner .banner_wrapper .slide_content .slick-arrow {
+  height: 45px;
+  width: 45px;
+  background-color: #8b0021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.banner .banner_wrapper .slide_content .slick-arrow svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  color: white;
+}
+.banner .banner_wrapper .slide_content .slick-prev {
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.banner .banner_wrapper .slide_content .slick-next {
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  right: 90%;
+}
+.banner .banner_wrapper .booking_form {
+  position: absolute;
+  width: 250px;
+  right: 15px;
+  top: 35%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+.banner .banner_wrapper .booking_form .form_title .titleSub {
+  font-size: 14px;
+}
+.banner .banner_wrapper .booking_form .form_title .titleMain {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem {
+  margin-top: 5px;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .formContent_text {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .inputGroupItem {
+  position: relative;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .inputGroupItem .iconItem {
+  position: absolute;
+  left: 5px;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .inputGroupItem .iconItem svg {
+  width: 15px;
+  height: 30px;
+  fill: currentColor;
+  color: #8b8d8e;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .inputGroupItem .inputItem {
+  height: 30px;
+  font-size: 14px;
+  padding: 0 5px 0 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  color: black;
+  width: 100%;
+}
+.banner .banner_wrapper .booking_form .form_content .formItem .formContent .inputGroupItem .selectItem {
+  height: 30px;
+  font-size: 14px;
+  padding: 0 5px 0 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  color: black;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .banner .banner_wrapper .slide_content .slick-next {
+    right: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .banner .banner_wrapper .slide_content .slick-prev {
+    position: absolute;
+    z-index: 10;
+    left: 2%;
+    top: 50%;
+    bottom: 0;
+  }
+  .banner .banner_wrapper .slide_content .slick-next {
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    top: 50%;
+    bottom: 0;
+  }
+  .banner .banner_wrapper .slide_content .slide_item .slide_img {
+    height: 50vh;
+    width: 100vw;
+  }
+  .banner .banner_wrapper .booking_form {
+    display: none;
+  }
+}

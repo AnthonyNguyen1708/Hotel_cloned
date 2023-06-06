@@ -1,0 +1,116 @@
+.discover {
+  background-color: #f7f7f7;
+}
+.discover .discover_wrapper {
+  padding: 100px 0;
+}
+.discover .discover_wrapper .discover_title {
+  margin-bottom: 30px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem {
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomImg .imgList_main {
+  margin-bottom: 8px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomImg .imgList_main .img_main {
+  border-radius: 5px;
+  aspect-ratio: 16/9;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomImg .imgList_sub .slick-list {
+  padding: 0 !important;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomImg .imgList_sub .img_sub {
+  border-radius: 5px;
+  padding: 0 3px;
+  aspect-ratio: 16/9;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType {
+  margin-bottom: 30px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType .room_name {
+  text-transform: uppercase;
+  color: #8b0021;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType .room_text {
+  font-size: 1rem;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomDes .room_des {
+  color: #8b0021;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomDes .ul_menu {
+  list-style: none;
+  padding-left: 0;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomDes .ul_menu .li_item {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice {
+  text-align: right;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .originPrice {
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .originPrice::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 3px;
+  background-color: #8b0021;
+  bottom: 50%;
+  transform: rotate(-4deg);
+}
+.discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .salePrice {
+  font-size: 40px;
+  font-weight: 600;
+  color: #8b0021;
+}
+
+@media (max-width: 991px) {
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType {
+    margin-bottom: 15px;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType .room_name {
+    margin: 15px 0;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomType .room_text {
+    margin-bottom: 0.5rem;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomDes .room_des {
+    margin-bottom: 10px;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomDes .ul_menu .li_item {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .discover .discover_wrapper {
+    padding: 30px 0;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .originPrice {
+    font-size: 20px;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .originPrice:before {
+    width: 65%;
+  }
+  .discover .discover_wrapper .discover_content .roomList .roomItem .roomInfo .roomDetail .roomPrice .salePrice {
+    font-size: 30px;
+  }
+}
